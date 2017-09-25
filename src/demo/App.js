@@ -1,10 +1,9 @@
 import React from 'react';
-import Example from '../lib';
-import { SecondExample } from '../lib';
+import { Example, SecondExample } from '../lib';
 
 const App = () => (
   <div>
-    <Example />
+    <Example title='Test Title' />
     <SecondExample />
   </div>
 );

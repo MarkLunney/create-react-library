@@ -1,9 +1,9 @@
 import React from 'react';
 import './Example.scss';
 
-const Example = () => (
+const Example = ({ title }) => (
   <div className="Example">
-    <h1 className="Example-text">Create React Libraries</h1>
+    <h1 className="Example-text">{title}</h1>
   </div>
 );
 
