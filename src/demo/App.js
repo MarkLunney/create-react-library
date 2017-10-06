@@ -7,7 +7,7 @@ var onSubmit = function(newCount) {
 
 const App = () => (
   <div>
-    <Example title='Test Title' count={1} onSubmit={onSubmit} />
+    <Example title='Test Title' count={1} buttonText="Click me" onSubmit={onSubmit} />
     <SecondExample />
   </div>
 );
