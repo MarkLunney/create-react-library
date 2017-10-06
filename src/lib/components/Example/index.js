@@ -1,3 +1,3 @@
-import Example from './Example';
+import ExampleLifecycle from './ExampleLifecycle';
 
-export default Example;
+export default ExampleLifecycle;
